@@ -40,6 +40,10 @@ main {
   cursor: pointer;
 }
 
+.tabs__title:hover {
+  text-decoration: underline;
+}
+
 .tabs__title--active {
   background-color: var(--color-primary);
   color: var(--text-color);
@@ -79,5 +83,5 @@ main {
 .tabs__description p {
   line-height: 1.4;
   padding: var(--spacing-medium) var(--spacing-xlarge);
-  font-size: var(--font-size-medium);
+  font-size: var(--font-size-base);
 }
